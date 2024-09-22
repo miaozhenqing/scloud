@@ -1,0 +1,15 @@
+/.idea/
+/eureka-server/target/
+/product-data-service/target/
+/product-service-ribbon/target/
+/product-data-service/.mvn/
+/product-service-ribbon/.mvn/
+/product-data-service/src/test/
+/product-service-ribbon/src/test/
+/eureka-server/src/test/
+/product-data-service/src/test/
+/product-service-ribbon/src/test/
+/product-service-ribbon/.mvn/
+/product-service-feign/target/
+/common/target/
+/common/src/test/

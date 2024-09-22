@@ -5,11 +5,12 @@ spring:
     name: config-server
   cloud:
     config:
-      label: master
+      label: main
       server:
         git:
           uri: https://github.com/miaozhenqing/scloud
-          searchPaths: config-server/src/main/resources/
+          default-label: main
+          search-paths: config
 eureka:
   client:
     serviceUrl:

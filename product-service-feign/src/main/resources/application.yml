@@ -1,9 +1,10 @@
 server:
   port: 8012
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+# 测试【配置客户端】时，将eureka的信息移动到bootstrap.yml中
 spring:
   application:
     name: product-view-service-feign

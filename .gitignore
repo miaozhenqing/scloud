@@ -13,3 +13,4 @@
 /product-service-feign/target/
 /common/target/
 /common/src/test/
+/zuul/target/

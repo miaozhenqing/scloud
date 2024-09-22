@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ServerConfig {
-    @Value("${version?default}")
+    @Value("${version:default}")
     private String version;
 
     public String getVersion() {

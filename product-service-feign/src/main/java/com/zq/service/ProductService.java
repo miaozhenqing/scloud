@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ProductService {
-    @Autowired ProductClientFeign productClientFeign;
+    @Autowired
+    ProductClientFeign productClientFeign;
     public List<Product> listProducts(){
         return productClientFeign.listProducts();
-
     }
 }
 

@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/miaozhenqing/scloud
           default-label: main
-          search-paths: config
+          search-paths: config-server/config
 eureka:
   client:
     serviceUrl:
